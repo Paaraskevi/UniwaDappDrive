@@ -1,0 +1,79 @@
+.image-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+  grid-auto-rows: 350px;
+
+  margin: 10px;
+}
+
+.image-list img {
+  width: 250px;
+  height: 350px;
+}
+.center {
+  margin: 40px;
+}
+
+.button2 {
+  color: #fff;
+  padding: 7px 24px;
+  margin: 22px !important;
+  background-color: teal;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+  border-radius: 90px !important;
+  font-weight: bold;
+  font-size: 18px !important;
+  border: 0;
+  touch-action: manipulation;
+  cursor: pointer !important;
+}
+
+
+
+.button:hover {
+  box-shadow: rgb(24 58 56 / 50%) 0 3px 8px;
+}
+.address {
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 330px;
+  text-align: center;
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+}
+.File-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Responsive grid */
+  grid-gap: 20px; /* Space between items */
+  margin: 20px auto; /* Center the grid and add space */
+  padding: 10px;
+  justify-content: center;
+}
+
+.File-list img {
+  width: 150px;  /* Size for the images */
+  height: 150px; /* Adjust as needed */
+  object-fit: cover; /* Ensure images fit properly */
+  border-radius: 8px;
+  border: 2px solid #38D2D2; /* Border color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.File-list img:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  border-color: #ff9900; /* Change border color on hover */
+}
+
+.center {
+  display: block;
+  margin: 20px auto;
+}
+
+
